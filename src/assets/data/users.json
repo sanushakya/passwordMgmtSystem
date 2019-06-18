@@ -1,0 +1,10 @@
+[
+    {"id": "1", "description": "Hi Mama App", "email": "sunita.dhougoda@gmail.com", "password": "Arya1stSchool" },
+    {"id": "2", "description": "Wells Fargo App", "email": "sunita.dhougoda01@gmail.com", "password": "12334" },
+    {"id": "3", "description": "Bank of america ", "email": "sunita.dhougoda@gmail.com", "password": "test" },
+    {"id": "4", "description": "AMEX app", "email": "sunita.dhougoda@gmail.com", "password": "Arya1stSchool" },
+    {"id": "5", "description": "TD Bank app", "email": "sunita.dhougoda@gmail.com", "password": "Arya1stSchool" },
+    {"id": "6", "description": "Capital One app", "email": "sunita.dhougoda@gmail.com", "password": "Arya1stSchool" },
+    {"id": "7", "description": "Citi app", "email": "sunita.dhougoda@gmail.com", "password": "Arya1stSchool" },
+    {"id": "8", "description": "Capital Silver app", "email": "sunita.dhougoda@gmail.com", "password": "Arya1stSchool" }
+]

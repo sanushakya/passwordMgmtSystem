@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html>
+ <head>
+    <title>
+        Welcome to my application
+    </title>
+ </head> 
+  <body>
+      <h1> Password Management System</h1>
+      <form [formGroup]="loginForm" (ngSubmit)="onSubmit()">
+        <div class="form-group">
+          <label for="email">Email</label>
+          <input type="email" class="form-control" formControlName="email" id="email">
+          <div *ngIf="submitted && loginForm.controls.email.errors" class="error">
+            <div *ngIf="loginForm.controls.email.errors.required">
+              <small class="text-danger">Email is required</small>
+            </div>
+          </div>
+        </div>
+        <div class="form-group">
+          <label for="pwd">Password</label>
+          <input type="password" class="form-control" formControlName="password" id="pwd">
+          <div *ngIf="submitted && loginForm.controls.password.errors" class="error">
+            <div *ngIf="loginForm.controls.password.errors.required">
+                <small class="text-danger">Password is required</small>
+            </div>
+          </div>
+        </div>
+        <div class="checkbox">
+          <label><input type="checkbox">Remember me</label>
+        </div>
+        <button type="submit" class="btn btn-primary">Submit</button>
+        <div *ngIf="invalidLogin" class="error">
+          <small class="text-danger">Invalid credentials.</small>
+        </div>
+      </form>
+
+  </body>
+</html>
+<router-outlet></router-outlet>
